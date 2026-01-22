@@ -1,1 +1,0 @@
-# AdamsEdits.github.io
