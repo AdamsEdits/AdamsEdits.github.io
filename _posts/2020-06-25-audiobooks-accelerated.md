@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Accelerated Audio
+author: Adam Greenberg
+date: 25, June, 2020
 ---
 
 # Accelerated Audio
 
 When I was younger and grew tired of pretending to myself that I was still reading a textbook, I used to think it would be cool if I could just download knowledge into my brain; that maybe one day, we'll plug a cable in our belly buttons and this would bring the end of having to read the slow way. And of course, as I got older, a USB stick might have replaced that cable in this fantasy in my head.
 
-Post author By Adam Greenberg
-Post date 25, June, 2020
 Tangentially related: I would like to recommend to you, audiobooks (if you're not already into them), FREE from your local library, at that. THOUSANDS. (Hey, your tax dollars).
 
 When I was younger and grew tired of pretending to myself that I was still reading a textbook, I used to think it would be cool if I could just download knowledge into my brain; that maybe one day, we'll plug a cable in our belly buttons and this would bring the end of having to read the slow way. And of course, as I got older, a USB stick might have replaced that cable in this fantasy in my head.
@@ -27,7 +27,7 @@ More than the privilege of making time though, it's disproportionally due to slo
 
 I started at 1.2x — 1.5x, challenging myself to test the boundaries of my comprehension and focus. And perhaps maybe not surprisingly actually, speeding them up actually improved my focus and attention. So I hung out around 2x for awhile, plateaued at 2.5x for another 6 months or so, and slowly pushed my way up toward a regular 2.8x — 3.6x speed, largely dependent on the pace of the podcast host or narrator. Now, just over two years later, I'm often flirting with 4x speed, without a loss of comprehension, retention, nor enjoyment.
 
-Idon't share this to boast, just to encourage you that if you're the kind of person who values the efficiency of learning quickly, it's so very possible. You may very well amaze yourself with how much your brain can process this way. You also might find yourself surprised at how quickly you come to realize how slowly most people often speak.
+I don't share this to boast, just to encourage you that if you're the kind of person who values the efficiency of learning quickly, it's so very possible. You may very well amaze yourself with how much your brain can process this way. You also might find yourself surprised at how quickly you come to realize how slowly most people often speak.
 
 Imagine enjoying an hour-long podcast in less than only 20 minutes.
 
