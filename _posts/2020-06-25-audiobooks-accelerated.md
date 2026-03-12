@@ -2,7 +2,7 @@
 layout: post
 title: Accelerated Audio
 author: Adam Greenberg
-date: 25, June, 2020
+date: 25, June 2020
 ---
 
 # Accelerated Audio
