@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* highlighting testimonial */
 .highlight {
     background-color: rgb(195, 250, 208);
