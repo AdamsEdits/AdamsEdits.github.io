@@ -50,7 +50,7 @@ html {
     text-align: center;
     background-color: transparent;
   
-}    // end of code containers for long run-on sentence extension
+}    /* end of code containers for long run-on sentence extension */
 
 
 
@@ -81,7 +81,7 @@ html {
 
 /* Hide the menu by default */
 .nav-menu {
-  // display: none;
+  /* display: none; */
   background-color: #333; /* Set background color */
   color: #fff; /* Set text color */
   list-style: none; /* Remove default list styles */
@@ -187,8 +187,8 @@ html {
             position: absolute;
             top: 20px;
             right: 20px; /* Align the button horizontally to the center */
- //   transform: translateX(-50%); /* Move the button back by half of its width to center it */
-   // bottom: -40px; /* Adjust the vertical position as needed */
+ /*   transform: translateX(-50%); /* Move the button back by half of its width to center it */
+   /* bottom: -40px; /* Adjust the vertical position as needed */
          }
 
          /* Styles for the previous testimonial button */
@@ -200,8 +200,8 @@ html {
             position: absolute;
             top: 20px;
             left: 20px; /* Align the button horizontally to the center */
-          //  transform: translateX(-50%); /* Move the button back by half of its width to center it */
-            // bottom: -40px; /* Adjust the vertical position as needed */ 
+          /*  transform: translateX(-50%); /* Move the button back by half of its width to center it */
+            /* bottom: -40px; /* Adjust the vertical position as needed */ 
         }
         
 
@@ -211,10 +211,10 @@ html {
             padding: 10px 20px;
             background-color: #fff;
             color: #333;
-            border: 1px solid #333; //previously none;
+            border: 1px solid #333; /* previously none; */
             border-radius: 5px;
             font-size: 16px;
-        //    font-weight: bold;
+        /*    font-weight: bold; */
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
@@ -232,7 +232,7 @@ html {
             max-width: 100%;
             height: auto;
             object-fit: contain;
-          //  margin-top: 100px; new
+          /*  margin-top: 100px; new */
   
         }
 
@@ -262,10 +262,11 @@ html {
    /* margin-left: auto;  Add space between text and image */
 }
 
-.image-container img {   //new
-    max-width: auto; /* Ensure the image doesn't exceed its container */
-    max-height: 200px; /* Maintain aspect ratio */
-    object-fit: contain; /* Fit the image inside the container */
+.image-container img {   /* new */
+    max-width: 100%; /* Ensure the image doesn't exceed its container, formerly auto */
+    height: auto;  
+  /* max-height: 200px;  Maintain aspect ratio */
+    object-fit: cover; /* Fit the image inside the container, formerly contain*/
    /* margin-left: auto;  Add space between text and image */
     margin-top: 0;
 }
@@ -273,7 +274,7 @@ html {
 
 
 
-  .testimonial-container {            // containers for testimonial buttons, possibly duplicate
+  .testimonial-container {            /* containers for testimonial buttons, possibly duplicate */
     position: relative;
     text-align: center; /* centers the text and image */
     margin-bottom: 20px; /* space below the testimonial */
@@ -339,7 +340,7 @@ button:hover {
       .circle-container img {
             width: auto; /* Ensure the image fills the container */
             height: 100%; /* Allow the height to adjust automatically */
-            object-fit: coverMaintain /* aspect ratio and cover the container */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
             margin: auto;
             position: relative;
             bottom: 2px;
