@@ -7,6 +7,57 @@ html {
     background-color: rgb(195, 250, 208);
 }
 
+
+
+
+
+  /* container for very long lines like aside */
+  .code-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+.code-container pre {
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
+
+.code-container .NoBGNoWrap {
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    white-space: nowrap;
+    background-color: transparent; /* Explicitly set background to transparent */
+  
+}
+
+  .code-container .NoBGButWrap {
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    background-color: transparent; /* Explicitly set background to transparent */
+}
+
+.code-container .Header {
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+    background-color: transparent;
+  
+}    // end of code containers for long run-on sentence extension
+
+
+
+
+
+
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -219,6 +270,41 @@ html {
     margin-top: 0;
 }
 
+
+
+
+  .testimonial-container {            // containers for testimonial buttons, possibly duplicate
+    position: relative;
+    text-align: center; /* centers the text and image */
+    margin-bottom: 20px; /* space below the testimonial */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* center the buttons */
+    margin-top: 20px; /* space above buttons */
+}
+
+.previous-testimonial-button,
+.next-testimonial-button {
+    margin: 0 10px; /* space between buttons */
+}
+
+button {
+    padding: 10px 20px; /* button padding for better click area */
+    background-color: #007BFF; /* button background color */
+    color: white; /* button text color */
+    border: none; /* remove border */
+    border-radius: 5px; /* rounded corners */
+    cursor: pointer; /* change cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* darker background on hover */
+}
+
+
+                      
     body {
           font-family: 'Roboto', sans-serif;
             margin: 0;
@@ -343,3 +429,7 @@ details[open] summary {
 
 
           }
+
+
+
+                      
