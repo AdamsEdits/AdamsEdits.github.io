@@ -263,10 +263,9 @@ html {
 }
 
 .image-container img {   /* new */
-    max-width: 100%; /* Ensure the image doesn't exceed its container, formerly auto */
-    height: auto;  
-  /* max-height: 200px;  Maintain aspect ratio */
-    object-fit: cover; /* Fit the image inside the container, formerly contain*/
+    max-width: auto; /* Ensure the image doesn't exceed its container, formerly auto */   
+    max-height: 200px;  /* Maintain aspect ratio */
+    object-fit: cover; /* Fit the image inside the container, formerly 'contain' rather than 'cover'*/
    /* margin-left: auto;  Add space between text and image */
     margin-top: 0;
 }
