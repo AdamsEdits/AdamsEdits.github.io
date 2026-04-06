@@ -6,9 +6,9 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      {{ post.date }}
-      {{ post.author }}
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      Published: {{ post.date }}<br>
+      By: {{ post.author }}<br>
 
       <div class="entry">
         {{ post.excerpt }}
