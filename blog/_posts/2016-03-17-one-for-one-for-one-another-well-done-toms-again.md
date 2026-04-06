@@ -14,6 +14,8 @@ I just came across [this recent Fast Company article and short video interview](
 
 http://www.fastcompany.com/embed/7db5f9c320ac6?rel=1&src=embed&veggiemode=1​
 
+<!--end_excerpt-->
+
 At the end of the segment, Blake shares [TOMS’ latest commercial](https://www.youtube.com/watch?v=xkF4X5MfW0w) (below) and why TOMS recently added the sign-off, “For One, Another” after their now famous creed, “One for One.”
 
 https://www.youtube.com/embed/xkF4X5MfW0w?wmode=opaque 
