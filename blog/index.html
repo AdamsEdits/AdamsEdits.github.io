@@ -4,6 +4,8 @@ layout: default
 
 {{ site.baseurl }}
 
+Blog
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -11,7 +13,7 @@ layout: default
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       Published: {{ post.date }}<br>
       By: {{ post.author }}<br>
-
+        <br>
       <div class="entry">
         {{ post.excerpt }}
       </div>
