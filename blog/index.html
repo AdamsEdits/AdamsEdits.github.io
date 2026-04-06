@@ -3,8 +3,9 @@ layout: default
 ---
 
 {{ site.baseurl }}
+### Helping You Write Well
 
-Blog
+## Adam's Blog
 
 <div class="posts">
   {% for post in site.posts %}
@@ -18,7 +19,7 @@ Blog
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">[ Read More ]</a>
     </article>
   {% endfor %}
 </div>
