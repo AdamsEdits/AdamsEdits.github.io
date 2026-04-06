@@ -116,4 +116,7 @@ My beer can desk at TOMS
 
 Tags Branding, Marketing, mission statement, One for One, Psychology, slogan, TOMS, TOMS Shoes
 
-[Archived Post](https://web.archive.org/web/20210120222056/https://edits.adamgreenberg.com/blog/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms/)
+[Archived Post](../../../that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms)[Archived Post](https://web.archive.org/web/20210120222056/https://edits.adamgreenberg.com/blog/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms/)
+
+
+[Archived slash Post](../../../that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms/)
