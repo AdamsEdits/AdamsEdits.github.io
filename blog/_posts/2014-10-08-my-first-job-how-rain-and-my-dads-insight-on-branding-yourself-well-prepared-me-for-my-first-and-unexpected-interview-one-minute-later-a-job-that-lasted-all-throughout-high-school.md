@@ -50,4 +50,4 @@ I’m still not an enthusiastic riser.
 Categorized as Branding, Marketing, Psychology, TOMS
 Tagged Branding, Marketing, TOMS
 
-[Archived Post](https://web.archive.org/web/20210221072528/https://edits.adamgreenberg.com/blog/my-first-job-how-rain-and-my-dads-insight-on-branding-yourself-well-prepared-me-for-my-first-and-unexpected-interview-one-minute-later-a-job-that-lasted-all-throughout-high-school/)
+[Archived Post](../../../my-first-job-how-rain-and-my-dads-insight-on-branding-yourself-well-prepared-me-for-my-first-and-unexpected-interview-one-minute-later-a-job-that-lasted-all-throughout-high-school) | [Archive.org](https://web.archive.org/web/20210221072528/https://edits.adamgreenberg.com/blog/my-first-job-how-rain-and-my-dads-insight-on-branding-yourself-well-prepared-me-for-my-first-and-unexpected-interview-one-minute-later-a-job-that-lasted-all-throughout-high-school/)
