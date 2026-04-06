@@ -2,7 +2,7 @@
 layout: post
 title: “One for One. For One, Another.” Well done, TOMS. Again.
 author: Adam Greenberg
-date: 17, March 2016
+date: 2016-03-17
 ---
 
 I just came across [this recent Fast Company article and short video interview](https://www.fastcompany.com/3055485/blake-mycoskie-on-the-future-of-toms) of TOMS founder and my former boss, Blake Mycoskie: 

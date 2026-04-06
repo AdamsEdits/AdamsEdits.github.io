@@ -2,7 +2,7 @@
 layout: post
 title: Fun at the TOMS Shoes HQ Copy Machine
 author: Adam Greenberg
-date: 23, April, 2009
+date: 2009-04-23
 ---
 
 !Picture

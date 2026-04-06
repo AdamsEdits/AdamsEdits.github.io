@@ -2,7 +2,7 @@
 layout: post
 title: My Beer Can Desk at TOMS Shoes HQ
 author: Adam Greenberg
-date: 20, April, 2014
+date: 2014-04-20
 ---
 
 I really enjoyed my short time interning at TOMS in 2009. For many reasons. 

@@ -2,7 +2,7 @@
 layout: post
 title: “Water. The Original Drink.”
 author: Adam Greenberg
-date: 17, April, 2014
+date: 2014-04-17
 ---
 
 !Picture
