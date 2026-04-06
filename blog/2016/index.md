@@ -1,0 +1,6 @@
+---
+layout: year
+title: "2016"
+year: 2016
+permalink: /blog/2016/
+---
