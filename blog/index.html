@@ -2,11 +2,13 @@
 layout: default
 ---
 
+{{ site.baseurl }}
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
 
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       Published: {{ post.date }}<br>
       By: {{ post.author }}<br>
 

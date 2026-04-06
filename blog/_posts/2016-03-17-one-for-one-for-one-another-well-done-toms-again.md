@@ -5,8 +5,6 @@ author: Adam Greenberg
 date: 17, March 2016
 ---
 
-{{ post.title }}
-
 I just came across [this recent Fast Company article and short video interview](https://www.fastcompany.com/3055485/blake-mycoskie-on-the-future-of-toms)  of TOMS founder and my former boss, Blake Mycoskie: 
 
 https://www.fastcompany.com/embed/7db5f9c320ac6?rel=1&src=embed&veggiemode=1​
