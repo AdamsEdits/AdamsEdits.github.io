@@ -11,6 +11,6 @@
 <ul>
   {% assign posts_in_month = site.posts | where_exp: "post", "post.date | date: '%Y-%m' == ym" %}
   {% for post in posts_in_month %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%b %-d, %Y" }}</li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%a. %-d, %b %Y" }}</li>
   {% endfor %}
 </ul>
