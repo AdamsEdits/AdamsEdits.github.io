@@ -3,6 +3,7 @@ layout: post
 title: Fun at the TOMS Shoes HQ Copy Machine
 author: Adam Greenberg
 date: 2009-04-23
+excerpt_separator: "==="
 ---
 
 !Picture
@@ -10,6 +11,7 @@ date: 2009-04-23
 The Mark Twain quote was already there; I couldn’t help myself.
 
 ===
+
 Thanks for your help finding a matching font, [Vanessa](https://www.vanessavaguely.com).
 
 Shania Twain quote at TOMS HQ

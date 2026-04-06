@@ -3,6 +3,7 @@ layout: post
 title: Accelerated Audio
 author: Adam Greenberg
 date: 2020-06-25
+excerpt_separator: "==="
 ---
 
 When I was younger and grew tired of pretending to myself that I was still reading a textbook, I used to think it would be cool if I could just download knowledge into my brain; that maybe one day, we'll plug a cable in our belly buttons and this would bring the end of having to read the slow way. And of course, as I got older, a USB stick might have replaced that cable in this fantasy in my head.

@@ -3,6 +3,7 @@ layout: post
 title: My first job – How rain and my dad’s insight on branding yourself well prepared me for my first (and unexpected) interview one minute later, a job that lasted all throughout high school.
 author: Adam Greenberg
 date: 2014-10-08
+excerpt_separator: "==="
 ---
 
 Perhaps my introduction to branding or perception management came from my dad. 
