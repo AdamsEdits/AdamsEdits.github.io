@@ -4,7 +4,7 @@ excerpt_separator: "==="
 plugins:
   - jekyll-sitemap
 
-url: "https://edits.adamgreenberg.com/blog"   # replace with your site URL
+url: "https://edits.adamgreenberg.com"   # replace with your site URL
 baseurl: "/blog"
 
 <h4>Helping You Write Well</h4>
