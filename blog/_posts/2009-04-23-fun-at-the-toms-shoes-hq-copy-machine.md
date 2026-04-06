@@ -6,6 +6,8 @@ date: 2009-04-23
 excerpt_separator: "==="
 ---
 
+{{ post.title }}
+
 !Picture
 !Picture
 The Mark Twain quote was already there; I couldn’t help myself.
