@@ -2,10 +2,9 @@
 layout: default
 ---
 
-{{ site.baseurl }} | {{ site.baseurl }}/blog
+{{ site.baseurl }} | {{ site.baseurl }}
 <h4>Helping You Write Well</h4>
-
-<p>Adam's Blog</p>
+{{ post.author }}<br>
 
 <div class="posts">
   {% for post in site.posts %}
@@ -13,8 +12,7 @@ layout: default
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.date }}<br>
-      By: {{ post.author }}<br>
-        <br>
+      
       <div class="entry">
         {{ post.excerpt }}
       </div>
