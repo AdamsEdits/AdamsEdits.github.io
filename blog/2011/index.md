@@ -1,0 +1,6 @@
+---
+layout: year
+title: "2011"
+year: 2011
+permalink: /2011/
+---
