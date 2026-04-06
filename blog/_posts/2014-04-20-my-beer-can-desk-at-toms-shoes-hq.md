@@ -8,6 +8,8 @@ date: 2014-04-20
 I really enjoyed my short time interning at TOMS in 2009. For many reasons. 
 !Picture
 
+===
+
 One of those reasons was that I created a fantastic workspace.The back of my head and my desk of Sapporo cases, already 2/3rds smaller by the time of this photo.One day, I came into the office to find cases and cases of unopened Sapporo beer 12-pack tallboys, leftover from a recent launch event, piled somewhat haphazardly near the copy machine area … which was, right next to me.
 
 Seated from my chair’s vantage point, I noticed that a stack of four looked to be suspiciously just about the same height as my small desk. So after learning that nothing was expected to happen with them, I simply slid the piles across the floor, flush next to mine; and extended it quite colorfully into the executive style corner office desk I now fantasized it to be.

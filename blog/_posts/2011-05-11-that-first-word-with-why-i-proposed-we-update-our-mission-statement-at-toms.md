@@ -14,6 +14,8 @@ I hear it all the time. Setting aside that it’s actually a pretty lame first q
 
 Catch that?
 
+===
+
 Branding and marketing have always interested me, but even having changed majors six times or so in college, those two did not make my short list.
 
 Well lo and behold, in the Spring ’09 I was two years out of college and a marketing intern at the headquarters of TOMS Shoes in Santa Monica, CA. Now, the One for One company known solely as TOMS (pun if you want to).

@@ -9,7 +9,7 @@ Perhaps my introduction to branding or perception management came from my dad.
 
 It was probably no later than 10:30am on this particular Saturday and we were already headed home – likely from an early morning at Home Depot. (Plus, CarTalk starts at 11.) Oh, dad had his projects. Around the house, there was always something to be done. Of course. Even if it didn’t have to be done. Naturally. My dad is an early riser and a hard worker; today still, he often skips breakfast. (Me too, actually. I’m just not hungry until I’ve been awake for 2 hours.) Anyway, at that age, I generally always enjoyed helping him with those projects; still, I did not rise quite so enthusiastically on Saturday mornings. In my younger years, the wafted smell from the kitchen of pancakes with his perfectly crisped edges made it easier, sometimes.
 
-<!--end_excerpt-->
+===
 
 I’d eat 20. I remember now just where we were on Wantagh Avenue – no more than a 3 minutes drive to the house, but today we were about to stop at the local Cards & Gifts shop on the corner to pick up the newspaper. Dad had cancelled our weekend delivery of Newsday because the paper was never fully wrapped in its plastic when it rained.
 
