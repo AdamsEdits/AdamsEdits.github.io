@@ -31,4 +31,4 @@ Spring '09 Interns and TOMS founder Blake Mycoskie
 
 Categorized as TOMS Tagged desk, intern, interns, One for One, Sapporo, TOMS, TOMS Shoes
 
-[Archived Post](../../../my-beer-can-desk-at-toms-shoes-hq) | [Archive.org](https://web.archive.org/web/20210220235711/https://edits.adamgreenberg.com/blog/my-beer-can-desk-at-toms-shoes-hq/)
+[Archive.org](https://web.archive.org/web/20210220235711/https://edits.adamgreenberg.com/blog/my-beer-can-desk-at-toms-shoes-hq/)
