@@ -1,15 +1,14 @@
 ---
 ---
-<h1>Posts in {{ page.year }}-{{ page.month }}</h1>
-{% if page.month < 10 %}
-  {% assign month_padded = "0" | append: page.month %}
-{% else %}
-  {% assign month_padded = page.month %}
-{% endif %}
+<h1>Posts in {{ page.year }}-{{ page.month | prepend: "0" | slice: -2 }}</h1>
+{% assign month_padded = page.month | prepend: "0" | slice: -2 %}
 {% assign ym = page.year | append: "-" | append: month_padded %}
 <ul>
   {% assign posts_in_month = site.posts | where_exp: "post", "post.date | date: '%Y-%m' == ym" %}
   {% for post in posts_in_month %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%a. %d, %b %Y" }}</li>
   {% endfor %}
+  {% if posts_in_month == empty %}
+    <li>No posts for this month.</li>
+  {% endif %}
 </ul>
