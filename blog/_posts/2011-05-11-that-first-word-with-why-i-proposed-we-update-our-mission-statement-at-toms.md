@@ -3,7 +3,14 @@ layout: post
 title: That first word “With” – why I proposed we update our mission statement at TOMS.
 author: Adam Greenberg
 date: 2011-05-11
+excerpt_separator: "==="
 ---
+
+{{ page.title }} page
+{{ post.title }} post
+{{ site.title }} site
+
+
 
 We say it all the time.
 
