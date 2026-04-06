@@ -4,7 +4,11 @@ layout: default
 
 {{ site.baseurl }}
 <h4>Helping You Write Well</h4>
-{{ post.author }}<br>
+{{ site.author }}
+
+<div class="posts">
+{{ post.author }}
+</div>
 
 <div class="posts">
   {% for post in site.posts %}
