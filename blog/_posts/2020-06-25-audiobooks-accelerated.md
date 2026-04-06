@@ -42,3 +42,5 @@ I prefer the OverDrive app over Libby for downloading library audiobooks because
 It's not lost on me that speeding up audiobooks today is getting us pretty damn close to something like that USB belly button nonsense I pined for as a college student. When I think about all the talk of Artificial Intelligence and so on, this is it. This is how that happens to us. Through us.
 
 It shouldn't be a surprise that it actually comes as something we experience like a slowly boiling frog. 'Til one day it just feels like it's all as normal as it ever was.
+
+[Archived Post](https://web.archive.org/web/20201217185348/https://edits.adamgreenberg.com/blog/accelerated-audio/)

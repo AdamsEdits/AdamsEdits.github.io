@@ -66,7 +66,8 @@ Messaging on point.
 
 Again, well done Blake and the current TOMS team! Cheers to 10 years.
 
-Picture
+!Picture
 
+Categorized as Branding, Marketing, Psychology, TOMS Tagged One for One, TOMS, TOMS Shoes
 
-#### Categorized as Branding, Marketing, Psychology, TOMS Tagged One for One, TOMS, TOMS Shoes
+[Archived Post](https://web.archive.org/web/20210220133125/https://edits.adamgreenberg.com/blog/one-for-one-for-one-another-well-done-toms-again/)
