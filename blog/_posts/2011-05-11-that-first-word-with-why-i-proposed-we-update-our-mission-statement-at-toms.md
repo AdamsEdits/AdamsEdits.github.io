@@ -6,12 +6,6 @@ date: 2011-05-11
 excerpt_separator: "==="
 ---
 
-{{ page.title }} page
-{{ post.title }} post
-{{ site.title }} site
-
-
-
 We say it all the time.
 
 I hear it all the time. Setting aside that it’s actually a pretty lame first question, when we meet someone new, the answer is usually not even an after-thought… but I notice it quite a bit. (Actually, now I can’t not notice it.)	
