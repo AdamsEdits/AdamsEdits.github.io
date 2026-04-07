@@ -1,0 +1,36 @@
+<aside class="sidebar">
+  <section class="widget authors">
+    <h3>Authors</h3>
+    <ul>
+      {% if site.data.authors %}
+        {% for id, author in site.data.authors %}
+          <li><a href="{{ '/author/' | append: id | relative_url }}">{{ author.name }}</a></li>
+        {% endfor %}
+      {% else %}
+        {% assign authors = site.posts | map: 'author' | uniq %}
+        {% for a in authors %}
+          <li>{{ a }}</li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </section>
+
+  <section class="widget categories">
+    <h3>Categories</h3>
+    <ul>
+      {% for cat in site.categories %}
+        <li><a href="{{ site.baseurl }}/categories/{{ cat[0] | slugify }}/">{{ cat[0] }} ({{ cat[1].size }})</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="widget tags">
+    <h3>Tags</h3>
+    <ul>
+      {% assign tags = site.tags | sort %}
+      {% for tag in tags %}
+        <li><a href="{{ site.baseurl }}/tags/{{ tag[0] | slugify }}/">{{ tag[0] }} ({{ tag[1].size }})</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+</aside>
