@@ -1,20 +1,40 @@
 ---
 layout: default
 ---
-<h1>Author: {{ page.author }}</h1>
+{% assign page_author_slug = page.author | slugify %}
+{% assign author_data = site.data.authors[page_author_slug] %}
 
-{% assign author_data = site.data.authors[page.author] %}
+<h1>Author: {{ author_data.name | default: page.author }}</h1>
+
 {% if author_data %}
-  <p>{{ author_data.bio }}</p>
   {% if author_data.avatar %}
-    <img src="{{ author_data.avatar | relative_url }}" alt="{{ page.author }} avatar" />
+    <img src="{{ author_data.avatar | relative_url }}" alt="{{ author_data.name }} avatar" />
   {% endif %}
+  {% if author_data.title %}<p><strong>{{ author_data.title }}</strong></p>{% endif %}
+  {% if author_data.bio %}<p>{{ author_data.bio }}</p>{% endif %}
+  <p>
+    {% if author_data.website %}<a href="{{ author_data.website }}">Website</a>{% endif %}
+    {% if author_data.twitter %} • <a href="https://twitter.com/{{ author_data.twitter }}">@{{ author_data.twitter }}</a>{% endif %}
+  </p>
 {% endif %}
 
-<h2>Posts by {{ page.author }}</h2>
+<h2>Posts by {{ author_data.name | default: page.author }}</h2>
 <ul>
   {% for post in site.posts %}
-    {% if post.author == page.author or post.authors contains page.author %}
+    {% assign matches = false %}
+    {% if post.author %}
+      {% if post.author | slugify == page_author_slug %}
+        {% assign matches = true %}
+      {% endif %}
+    {% endif %}
+    {% if post.authors %}
+      {% for a in post.authors %}
+        {% if a | slugify == page_author_slug %}
+          {% assign matches = true %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if matches %}
       <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <small>— {{ post.date | date: "%Y-%m-%d" }}</small>

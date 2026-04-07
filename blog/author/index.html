@@ -8,35 +8,44 @@ permalink: /blog/author/
 
 <ul>
   {% if site.data.authors %}
-    {% for id in site.data.authors %}
-      {% assign key = id[0] %}
-      {% assign info = id[1] %}
+    {% for key in site.data.authors %}
+      {% assign id = key[0] | slugify %}
+      {% assign info = key[1] %}
       <li>
-        <a href="{{ '/blog/author/' | append: key | append: '/' | relative_url }}">
-          {{ info.name | default: key }}{% if info.title %} — {{ info.title }}{% endif %}
+        <a href="{{ '/blog/author/' | append: id | append: '/' | relative_url }}">
+          {{ info.name | default: id }}
         </a>
+        {% if info.title %} — <small>{{ info.title }}</small>{% endif %}
         {% if info.bio %}<p>{{ info.bio | truncate: 120 }}</p>{% endif %}
       </li>
     {% endfor %}
   {% else %}
-    {% comment % fallback: collect authors from posts if no _data/authors.yml %}{% endcomment %}
     {% assign authors = "" | split: "" %}
     {% for post in site.posts %}
       {% if post.author %}
-        {% unless authors contains post.author %}{% assign authors = authors | push: post.author %}{% endunless %}
+        {% assign a = post.author | slugify %}
+        {% unless authors contains a %}{% assign authors = authors | push: a %}{% endunless %}
       {% endif %}
       {% if post.authors %}
-        {% for a in post.authors %}
+        {% for pa in post.authors %}
+          {% assign a = pa | slugify %}
           {% unless authors contains a %}{% assign authors = authors | push: a %}{% endunless %}
         {% endfor %}
       {% endif %}
     {% endfor %}
-    {% for a in authors %}
-      <li>
-        <a href="{{ '/blog/author/' | append: a | append: '/' | relative_url }}">
-          {{ a }}
-        </a>
-      </li>
-    {% endfor %}
+  {% for a in authors %}
+  {% assign display = a | replace: '-', ' ' | split: ' ' %}
+  {% for i in (0..display.size) %}
+    {% assign idx = i | minus: 0 %}
+    {% if display[idx] %}
+      {% assign display[idx] = display[idx] | capitalize %}
+    {% endif %}
+  {% endfor %}
+  {% assign display = display | join: ' ' %}
+  <li>
+    <a href="{{ '/blog/author/' | append: a | append: '/' | relative_url }}">{{ display }}</a>
+  </li>
+{% endfor %}
+
   {% endif %}
 </ul>
