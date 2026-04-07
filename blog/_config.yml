@@ -1,10 +1,9 @@
 remote_theme: "jekyll/minima@1e8a445"
 excerpt_separator: "==="
+show_excerpts: true
 
 plugins:
   - jekyll-sitemap
 
 url: "https://edits.adamgreenberg.com"   # replace with your site URL
 baseurl: "/blog"
-
-<h4>Helping You Write Well</h4>
