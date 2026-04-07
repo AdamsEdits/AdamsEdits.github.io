@@ -1,15 +1,25 @@
 ---
 layout: default
 ---
+{% assign page_category_slug = page.category | slugify %}
+
 <h1>Category: {{ page.category }}</h1>
 
 <ul>
   {% for post in site.posts %}
-    {% if post.categories contains page.category %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
-      </li>
+    {% if post.categories %}
+      {% assign matched = false %}
+      {% for c in post.categories %}
+        {% if c | slugify == page_category_slug %}
+          {% assign matched = true %}
+        {% endif %}
+      {% endfor %}
+      {% if matched %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
+        </li>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </ul>

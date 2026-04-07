@@ -12,7 +12,7 @@ permalink: /blog/tag/
     {% assign name = tag[0] %}
     {% assign posts = tag[1] %}
     <li>
-      <a href="{{ '/blog/tag/' | append: name | slugify | append: '/' | relative_url }}">
+      <a href="{{ '/blog/' | append: name | slugify | append: '/' | relative_url }}">
         {{ name }} ({{ posts | size }})
       </a>
     </li>

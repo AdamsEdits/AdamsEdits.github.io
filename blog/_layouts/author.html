@@ -14,7 +14,7 @@ layout: default
   {% if author_data.bio %}<p>{{ author_data.bio }}</p>{% endif %}
   <p>
     {% if author_data.website %}<a href="{{ author_data.website }}">Website</a>{% endif %}
-    {% if author_data.twitter %} • <a href="https://twitter.com/{{ author_data.twitter }}">@{{ author_data.twitter }}</a>{% endif %}
+    {% if author_data.twitter %} {% if author_data.website %}• {% endif %}<a href="https://twitter.com/{{ author_data.twitter }}">@{{ author_data.twitter }}</a>{% endif %}
   </p>
 {% endif %}
 
