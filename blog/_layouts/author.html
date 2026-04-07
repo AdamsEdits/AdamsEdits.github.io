@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<h1>Author: {{ page.author }}</h1>
+
+{% assign author_data = site.data.authors[page.author] %}
+{% if author_data %}
+  <p>{{ author_data.bio }}</p>
+  {% if author_data.avatar %}
+    <img src="{{ author_data.avatar | relative_url }}" alt="{{ page.author }} avatar" />
+  {% endif %}
+{% endif %}
+
+<h2>Posts by {{ page.author }}</h2>
+<ul>
+  {% for post in site.posts %}
+    {% if post.author == page.author or post.authors contains page.author %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

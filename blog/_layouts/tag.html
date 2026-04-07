@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<h1>Posts tagged “{{ page.tag }}”</h1>
+
+{% if paginator %}
+  {% assign posts_list = paginator.posts %}
+{% else %}
+  {% assign posts_list = site.posts %}
+{% endif %}
+
+<ul>
+  {% for post in posts_list %}
+    {% if post.tags contains page.tag %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% if paginator %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% endif %}
+  </nav>
+{% endif %}

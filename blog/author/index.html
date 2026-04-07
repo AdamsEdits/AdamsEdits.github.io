@@ -1,7 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-<meta charset="utf-8">
-<meta http-equiv="refresh" content="0; URL=./" /> <!-- may be wrong, as is category and tag too... may go only to /blog/ or /blog or another -->
-  </head>
-</html>
+---
+layout: default
+title: Authors
+permalink: /blog/author/
+---
+
+<h1>Authors</h1>
+
+<ul>
+  {% if site.data.authors %}
+    {% for id in site.data.authors %}
+      {% assign key = id[0] %}
+      {% assign info = id[1] %}
+      <li>
+        <a href="{{ '/author/' | append: key | append: '/' | relative_url }}">
+          {{ info.name | default: key }}{% if info.title %} — {{ info.title }}{% endif %}
+        </a>
+        {% if info.bio %}<p>{{ info.bio | truncate: 120 }}</p>{% endif %}
+      </li>
+    {% endfor %}
+  {% else %}
+    {% comment % fallback: collect authors from posts if no _data/authors.yml %}{% endcomment %}
+    {% assign authors = "" | split: "" %}
+    {% for post in site.posts %}
+      {% if post.author %}
+        {% unless authors contains post.author %}{% assign authors = authors | push: post.author %}{% endunless %}
+      {% endif %}
+      {% if post.authors %}
+        {% for a in post.authors %}
+          {% unless authors contains a %}{% assign authors = authors | push: a %}{% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% for a in authors %}
+      <li>
+        <a href="{{ '/author/' | append: a | append: '/' | relative_url }}">
+          {{ a }}
+        </a>
+      </li>
+    {% endfor %}
+  {% endif %}
+</ul>
