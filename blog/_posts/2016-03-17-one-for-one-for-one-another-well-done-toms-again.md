@@ -1,7 +1,9 @@
 ---
 layout: post
 title: “One for One. For One, Another.” Well done, TOMS. Again.
-author: Adam Greenberg
+author: adam-greenberg
+categories: [Branding, Marketing, Psychology, TOMS]
+tags: [One-for-One, TOMS, TOMS-Shoes]
 date: 2016-03-17
 excerpt_separator: "==="
 ---

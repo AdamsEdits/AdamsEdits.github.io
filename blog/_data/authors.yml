@@ -1,3 +1,11 @@
+adam-greenberg:
+  name: "Adam Greenberg"
+  title: "Book Editor"
+  bio: "Grateful my 20s were a debt-free decade traveling with intention through work with meaning. It's time we make it possible for more young people to be able to say the same."
+  avatar: "/assets/images/adam.jpg"
+  website: "https://edits.adamgreenberg.com"
+  twitter: "AmeriCorpsAdam"
+  
 alice:
   name: "Alice Example"
   title: "Full‑stack Developer"
