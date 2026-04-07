@@ -1,9 +1,47 @@
-remote_theme: "jekyll/minima@1e8a445"
-excerpt_separator: "==="
-show_excerpts: true
+title: "Adam's Edits | Blog"
+email: "blog@edits.AdamGreenberg.com"
+description: "Helping You Write Well | A Blog"
+url: "https://edits.adamgreenberg.com"        # your site URL (no trailing slash)
+baseurl: ""                    # keep empty since you use /blog/ in permalinks/links
 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/       # default post permalinks (avoid collisions with category/tag slugs)
+paginate: 10                   # if using jekyll-paginate locally (GitHub Pages uses supported plugins list)
+
+# Plugins (only allowed on GitHub Pages)
 plugins:
   - jekyll-sitemap
 
-url: "https://edits.adamgreenberg.com"   # replace with your site URL
-baseurl: ""
+# Excerpt / theme / remote theme
+remote_theme: "jekyll/minima@1e8a445"  # if using remote theme
+excerpt_separator: "==="
+show_excerpts: true
+
+# Author data file (optional)
+data_dir: _data
+
+# Optional: collections, excludes, include
+collections:
+  posts:
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Optional: Feed, sitemap configs (adjust if used)
+sitemap:
+  exclude:
+    - "/404.html"
+
+# Optional: set defaults for posts (layout, category handling)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
