@@ -2,8 +2,8 @@
 layout: post
 title: “Water. The Original Drink.”
 author: adam-greenberg
-categories: [Branding, Marketing, Psychology]
-tags: [beverage, drink, Marketing, quench, water]
+categories: [branding, marketing, psychology]
+tags: [beverage, drink, marketing, quench, water]
 date: 2014-04-17
 excerpt_separator: "==="
 ---
