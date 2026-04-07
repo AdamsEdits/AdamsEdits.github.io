@@ -1,0 +1,22 @@
+alice:
+  name: "Alice Example"
+  title: "Full‑stack Developer"
+  bio: "Full‑stack dev and technical writer. Loves Ruby and static sites."
+  avatar: "/assets/images/alice.jpg"
+  website: "https://alice.example"
+  twitter: "alice_handle"
+
+bob:
+  name: "Bob Smith"
+  title: "DevOps Engineer"
+  bio: "Infrastructure, CI/CD, and monitoring. Occasional blog posts about deployments."
+  avatar: "/assets/images/bob.jpg"
+  website: "https://bob.example"
+  twitter: "bob_dev"
+
+carol:
+  name: "Carol Jones"
+  title: "Data Scientist"
+  bio: "Machine learning and data visualization."
+  avatar: "/assets/images/carol.jpg"
+  website: "https://carol.example"
