@@ -7,9 +7,9 @@
 {{ post.date | date: "%a. %d, %b %Y" }}
 </div>
 
-<post> # was article as below
+<article class="post"> # added class="post">
   {{ content }}
-</post> # was article as below
+</article> # was article here, trying post below
 
 # duplicating below  to test ----
 
@@ -22,8 +22,8 @@
 <h1>{{ post.title }}</h1>
 {{ post.date | date: "%a. %d, %b %Y" }}
 
-<article> # was article as above
+<post> # was article as above and outside of div below, as above
   {{ content }}
-</article> # was article as above
+</post> # was article as above
 
 </div>
