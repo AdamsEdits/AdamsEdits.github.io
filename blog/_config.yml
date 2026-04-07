@@ -6,4 +6,4 @@ plugins:
   - jekyll-sitemap
 
 url: "https://edits.adamgreenberg.com"   # replace with your site URL
-baseurl: "/blog"
+baseurl: ""
