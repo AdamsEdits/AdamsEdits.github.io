@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /404.html
+title: "Page not found"
+---
+
+<section class="page-404" style="text-align:center; padding:4rem 1rem;">
+  <h1 style="font-size:3rem; margin-bottom:0.5rem;">404</h1>
+  <p style="font-size:1.25rem; margin-bottom:1rem;">Sorry — we couldn't find that page.</p>
+
+  <p style="margin-bottom:1.5rem;">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    &nbsp;•&nbsp;
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    &nbsp;•&nbsp;
+    <a href="{{ '/blog/tag/' | relative_url }}">Tags</a>
+    &nbsp;•&nbsp;
+    <a href="{{ '/blog/category/' | relative_url }}">Categories</a>
+  </p>
+
+  <form action="{{ '/' | relative_url }}" method="get" style="max-width:36rem; margin:0 auto;">
+    <label for="s" style="display:block; margin-bottom:0.5rem;">Search the site</label>
+    <input id="s" name="q" type="search" placeholder="Search…" style="width:70%; padding:0.5rem;" />
+    <button type="submit" style="padding:0.5rem 0.75rem;">Search</button>
+  </form>
+
+  <p style="margin-top:1.5rem; color:#666; font-size:0.9rem;">
+    If you think this is an error, check the URL or return to the homepage.
+  </p>
+</section>
