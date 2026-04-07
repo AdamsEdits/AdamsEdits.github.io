@@ -44,4 +44,6 @@ It's not lost on me that speeding up audiobooks today is getting us pretty damn 
 
 It shouldn't be a surprise that it actually comes as something we experience like a slowly boiling frog. 'Til one day it just feels like it's all as normal as it ever was.
 
+tags: accelerated audio, AI, Artificial Intelligence, audio, audiobooks, books, free, learning, library, podcast, podcasts, Singularity, speed
+
 [Archive.org](https://web.archive.org/web/20201217185348/https://edits.adamgreenberg.com/blog/accelerated-audio/)
