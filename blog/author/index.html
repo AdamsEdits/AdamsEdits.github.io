@@ -12,7 +12,7 @@ permalink: /blog/author/
       {% assign key = id[0] %}
       {% assign info = id[1] %}
       <li>
-        <a href="{{ '/author/' | append: key | append: '/' | relative_url }}">
+        <a href="{{ '/blog/author/' | append: key | append: '/' | relative_url }}">
           {{ info.name | default: key }}{% if info.title %} — {{ info.title }}{% endif %}
         </a>
         {% if info.bio %}<p>{{ info.bio | truncate: 120 }}</p>{% endif %}
@@ -33,7 +33,7 @@ permalink: /blog/author/
     {% endfor %}
     {% for a in authors %}
       <li>
-        <a href="{{ '/author/' | append: a | append: '/' | relative_url }}">
+        <a href="{{ '/blog/author/' | append: a | append: '/' | relative_url }}">
           {{ a }}
         </a>
       </li>
