@@ -10,3 +10,20 @@
 <article>
   {{ content }}
 </article>
+
+----
+
+<h4>**This blog is a WIP project of restoring old posts and unfortunately likely still has quite a few formatting errors throughout; can't say this site is currently indicative of my editing work.**</h4>
+
+
+<h3>{{ page.title }}</h3>
+
+<div class="posts">
+<h1>{{ post.title }}</h1>
+{{ post.date | date: "%a. %d, %b %Y" }}
+
+<article>
+  {{ content }}
+</article>
+
+</div>
