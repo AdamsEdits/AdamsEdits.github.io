@@ -3,21 +3,23 @@ layout: default
 ---
 
 <h3>Helping You Write Well</h3>
-<h4>**This blog is a WIP project of restoring old posts and unfortunately likely still has quite a few formatting errors throughout; can't say this site is currently indicative of my editing work.**</h4>
+<h4>**This blog is a WIP project of restoring old posts and unfortunately likely still has quite a few formatting errors
+  throughout, carried over from migrating the old website. I can't say this site is currently indicative of my
+  professional editing work; when it is, I'll remove this message.**</h4>
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+  <article class="post">
 
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.date }}<br>
+    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.date }}<br>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">[ Read More ]</a>
-    </article>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">[ Read More ]</a>
+  </article>
   {% endfor %}
 </div>
 
