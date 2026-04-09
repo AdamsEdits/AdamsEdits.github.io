@@ -7,7 +7,7 @@ baseurl: ""                    # keep empty since you use /blog/ in permalinks/l
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:title/       # default post permalinks (avoid collisions with category/tag slugs)
+permalink: /blog/:year/:month/:day/:title/
 paginate: 10                   # if using jekyll-paginate locally (GitHub Pages uses supported plugins list)
 
 # Plugins (only allowed on GitHub Pages)
