@@ -4,7 +4,13 @@
 {% assign month_padded = page.month | prepend: "0" | slice: -2 %}
 {% assign ym = page.year | append: "-" | append: month_padded %}
 <ul>
-  {% assign posts_in_month = site.posts | where_exp: "post", "post.date | date: '%Y-%m' == ym" %}
+  {% assign posts_in_month = "" | split: "" %}
+  {% for post in site.posts %}
+    {% assign post_ym = post.date | date: '%Y-%m' %}
+    {% if post_ym == ym %}
+      {% assign posts_in_month = posts_in_month | push: post %}
+    {% endif %}
+  {% endfor %}
   {% for post in posts_in_month %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%a. %d, %b %Y" }}</li>
   {% endfor %}
